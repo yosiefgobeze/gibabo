@@ -4,6 +4,7 @@ import java.util.function.Consumer;
 import java.util.function.Predicate;
 
 // you have student object with grades, print those having A grade only.
+// First you need to create an object and add it to an ArrayList.
 class Student{
   String name;
   int age;
