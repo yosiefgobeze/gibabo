@@ -1,5 +1,6 @@
 import java.util.Collections;
 import java.util.LinkedList;
+import java.util.Iterator;
 
 public class LinkedListDemoTwo {
   public static void main(String[] args){
@@ -18,5 +19,12 @@ public class LinkedListDemoTwo {
     System.out.println("Added at first and last: " + ld);
     ld.removeFirst();
     System.out.println("Removed first element: " + ld);
+    for(Object lde: ld){
+      System.out.println(lde);
+    }
+    Iterator it = ld.iterator();
+    while (it.hasNext()) {
+      System.out.println(it.next());
+    }
   }
 }
