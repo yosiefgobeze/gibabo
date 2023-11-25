@@ -11,6 +11,7 @@ public class ArrayListDemoTwo {
     al.add("Good by");
     System.out.println(al);
 
+    al.remove(1);
     // the addAll method
     ArrayList al_duplicate = new ArrayList();
     al_duplicate.addAll(al);
