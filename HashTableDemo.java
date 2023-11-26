@@ -17,6 +17,8 @@ public class HashTableDemo{
     ht.put(106, "Senu");
     ht.put(108, "Selala");
     ht.put(110, "Febu");
+    // ht.put(null, "Noah") -- not valid nullpointerexception
+    // ht.put(112, null) -- not valid nullpointerexception
     // iterate
     Set s = ht.entrySet();
     Iterator it = s.iterator();
